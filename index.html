@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deadline counter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <header>
+        <form class="form">
+            <input type="text" id="inputField" placeholder="exp: 2024-05-25" required>
+            <input type="submit" value="calculate" class="btn">
+        </form>
+    </header>
+
+    <main>
+        <h2>Time remaining</h2>
+        <section class="timer">
+            <div class="timer_child">
+                <span class="days">0</span>
+                <span>days</span>
+            </div>
+
+            <div class="timer_child">
+                <span class="hours">0</span>
+                <span>hours</span>
+            </div>
+
+            <div class="timer_child">
+                <span class="minutes">0</span>
+                <span>minutes</span>
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>
