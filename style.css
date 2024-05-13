@@ -39,7 +39,6 @@ header, main{
     -webkit-backdrop-filter: blur(11.9px);
 
     padding: 30px 60px;
-    max-width: 500px;
 }
 #inputField{
     outline: none;
@@ -70,12 +69,13 @@ header, main{
     font-size: 26px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
 }
-.days, .hours, .minutes{
+.days, .hours, .minutes, .seconds{
     font-weight: 500;
-    font-size: 40px;
-}
-.timer_child > *{
+    font-size: 30px;
     margin: 25px;
+}
+.timer_text{
+    margin: 10px;
 }
